@@ -9,7 +9,9 @@ There should be three different paths in the application:
 ## Flow for the application
 Home page is the inital page the user is greeted with, this page contains a button that takes the user to the registration form.
 
-When the registration form is first loaded, it makes a request to fetch the example response provided and builds the form based on this. If the user types something that doesn't match the validation an inline error should appear beneath the input and the 'Register' button should be disabled. Once the user has filled out all the required fields with correct data and presses the 'Register' button the application redirect the user to the welcome page where it shows a message 'Welcome $first_name!' where $first_name is replaced with the first name provided in the form.
+When the registration form is first loaded, it makes a request to fetch the example response provided and builds the form based on this. If the user types something that doesn't match the validation an inline error should appear beneath the input and the 'Register' button should be disabled.
+
+Once the user has filled out all the required fields with correct data and presses the 'Register' button the application redirect the user to the welcome page where it shows a message 'Welcome $first_name!' where $first_name is replaced with the first name provided in the form.
 
 ## Requirements
 * Should be developed with a SPA framework
