@@ -5,7 +5,7 @@ interface FieldValidation {
 }
 
 interface RegistrationField {
-  type: 'text' | 'email' | 'phone' | 'password';
+  type: 'text' | 'email' | 'phone' | 'password' | 'button';
   name: string;
   label: string;
   required: boolean;

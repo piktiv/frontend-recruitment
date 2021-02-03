@@ -26,5 +26,6 @@
     { "name": "regex", "message": "1 or more numbers.", "value": "^.*[0-9].*$" },
     { "name": "regex", "message": "1 or more lower case letters.", "value": "^.*[a-z].*$" },
     { "name": "regex", "message": "1 or more upper case letters.", "value": "^.*[A-Z].*$" }
-  ]}
+  ]},
+  { "type": "button", "label": "Register" }
 ]
