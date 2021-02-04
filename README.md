@@ -18,7 +18,11 @@ Once the user has filled out all the required fields with correct data and press
 * Password field should hide password by default and have a button to toggle if password is visible
 
 ## Bonus
+* Use the Angular framework
 * Validate incoming data from the response, and show an error when the received data doesn't match expectations. This could be done with [class-validator](https://github.com/typestack/class-validator)
 * Cover the code with unit tests
 * Cover the code with e2e tests
 * Dockerise the application
+
+## How to submit
+The result should be provided by a link to a GitHub or GitLab repository.
